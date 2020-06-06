@@ -1,6 +1,6 @@
 # Manually Rendering a Widget
 
-Sometimes you may need to render a widget after the javascript bundle for Revcontents widgets has loaded. For these use cases, we provide a function attached to the window object that allows you to render a widget called `renderRCWidget`.
+Sometimes you may need to render a widget after the JavaScript bundle for Revcontents widgets has loaded. For these use cases, we provide a function attached to the window object that allows you to render a widget called `renderRCWidget`.
 
 ### Parameters
 

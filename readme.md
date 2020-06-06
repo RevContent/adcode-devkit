@@ -12,6 +12,7 @@ This guide aims to provide you with technical documentation on how to leverage o
 * [Placing Multiple Widgets](multiple-widget-placements.md)
 * [Detecting Adblockers](detecting-adblockers.md)
 * [Using RevMore](using-revmore.md)
+* [Using AMP Widgets](using-amp-widgets.md)
 
 ### Getting Started
 

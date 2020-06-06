@@ -1,6 +1,6 @@
 # Multiple Widget Placements
 
-It's possible to have more than one widget on a page. If you require this behavior, you can simply duplicate the div example shown above. However, you will only need to add the script tag to the page one time. The Revcontent javascript file will find any elements on the page that have the `data-rc-widget` attribute on them and render each widget using the respective data set on them. Following this pattern, your markup would look similar to the following:
+It's possible to have more than one widget on a page. If you require this behavior, you can simply duplicate the div example shown above. However, you will only need to add the script tag to the page one time. The Revcontent JavaScript file will find any elements on the page that have the `data-rc-widget` attribute on them and render each widget using the respective data set on them. Following this pattern, your markup would look similar to the following:
 
     <!DOCTYPE html>
     <html lang="en">
