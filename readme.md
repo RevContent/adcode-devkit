@@ -11,6 +11,7 @@ This guide aims to provide you with technical documentation on how to leverage o
 * [Manual Renders](manual-renders.md)
 * [Placing Multiple Widgets](multiple-widget-placements.md)
 * [Detecting Adblockers](detecting-adblockers.md)
+* [Using RevMore](using-revmore.md)
 
 ### Getting Started
 
