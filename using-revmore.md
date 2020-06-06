@@ -24,28 +24,32 @@ Aside from the base attributes, Revmore requires additional configuration data.
 
 
 ### Usage
-    // This element signifies where the page content would be located
-    <div id="rev-more-content"></div>
+```html
+<!-- This element signifies where the page content would be located -->
+<div id="rev-more-content"></div>
     
-    // Widget is placed directly below the content that is to be hidden behind RevMore
-    <div id="rcjs_load_x9cns"
-         data-rc-widget
-         data-endpoint="trends.revcontent.com"
-         data-widget-id="XXXXX"
-         data-rev-more
-         data-rev-more-preview-height="400"
-         data-rev-more-button-text="Read More"
-         data-rev-more-wrapper-id="content-wrapper"
-         data-rev-more-devices="desktop,tablet,mobile"></div>
+<!-- Widget is placed directly below the content that is to be hidden behind RevMore -->
+<div id="rcjs_load_x9cns"
+     data-rc-widget
+     data-endpoint="trends.revcontent.com"
+     data-widget-id="XXXXX"
+     data-rev-more
+     data-rev-more-preview-height="400"
+     data-rev-more-button-text="Read More"
+     data-rev-more-wrapper-id="content-wrapper"
+     data-rev-more-devices="desktop,tablet,mobile"></div>
+```
 
 Optionally, these can be set programmatically as well:
 
-    var el = document.getElementById('my-widget');
+```javascript
+var el = document.getElementById('my-widget');
     
-    if (el) {
-      el.setAttribute('data-rev-more', '');
-      el.setAttribute('data-rev-more-preview-height, '400');
-      el.setAttribute('data-rev-more-button-text', 'Read More');
-      el.setAttribute('data-rev-more-wrapper-id, 'content-wrapper');
-      el.setAttribute('data-rev-more-devices', 'desktop,tablet,mobile');
-    }
+if (el) {
+  el.setAttribute('data-rev-more', '');
+  el.setAttribute('data-rev-more-preview-height', '400');
+  el.setAttribute('data-rev-more-button-text', 'Read More');
+  el.setAttribute('data-rev-more-wrapper-id', 'content-wrapper');
+  el.setAttribute('data-rev-more-devices', 'desktop,tablet,mobile');
+}
+```

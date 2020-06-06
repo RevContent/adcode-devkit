@@ -18,11 +18,13 @@ This guide aims to provide you with technical documentation on how to leverage o
 
 A typical basic ad code for a Revcontent widget looks similar to the following:
 
-    <div id="rcjs_load_x9cns"
-         data-rc-widget
-         data-endpoint="trends.revcontent.com"
-         data-widget-id="XXXXX"></div>
-    <script src="https://assets.revcontent.com/master/delivery.js" defer></script>
+```html
+<div id="rcjs_load_x9cns"
+     data-rc-widget
+     data-endpoint="trends.revcontent.com"
+     data-widget-id="XXXXX"></div>
+<script src="https://assets.revcontent.com/master/delivery.js" defer></script>
+```
 
 This div has four data attributes:
 

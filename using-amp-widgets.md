@@ -30,15 +30,15 @@ Revcontent supports [AMP](https://amp.dev/) tags for displaying our widgets. A t
 ### Usage
 
 A typical AMP tag will look something like this:
-
-    <amp-ad layout="responsive"
-            width="WIDTH_HERE"
-            height="HEIGHT_HERE"
-            type="revcontent" 
-            data-revcontent
-            data-id="WIDGET_ID_HERE">
-    </amp-ad>
-
+```html
+<amp-ad layout="responsive"
+        width="WIDTH_HERE"
+        height="HEIGHT_HERE"
+        type="revcontent" 
+        data-revcontent
+        data-id="WIDGET_ID_HERE">
+</amp-ad>
+```
 ### Other Considerations
 
 The AMP project has a very strict philosophy on patterns that affect the [CLS](https://web.dev/cls/) (Cumulative Layout Shift) scores of mobile pages using AMP. Because of this, it is critical that amp widgets are set to a size that is appropriate for the widget configuration. In the screenshot shown above, the widget shown is configured in a 1x6 pattern (1 column, 6 rows of content). Inspecting this using the Chrome dev tools, we can see that the markup rendered has a size of 375 pixels wide by 1756 pixels tall:
