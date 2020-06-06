@@ -26,6 +26,7 @@ Prior to adding any ad code to a page, a check must be performed to see if ads a
       }, 100);
     }
 
+### Calling Adblocker Detection 
 As mentioned above, this function attempts to create a pseudo ad by placing a div into the DOM that uses a blacklisted id. From there, it creates a 100 millisecond timeout and then checks the client height of the element to see if it were rendered successfully or not. If the client height is 0, then we can tell that it was blocked from being shown. That value is then consumed by a callback. To use this function, we can use logic like the following:
 
     testAdblocker(function(isBlocked) {
