@@ -2,7 +2,6 @@
 
 Sometimes, our publishers will need the ability to detect if an ad blocker is running so that they can show an alternate, ad block safe widget. To do this, a standard ad code will not suffice and as such you will need to rely on a different strategy to show widgets on your site.
 
-_Note: We should insert something here about how we work with ad blockers. Need details on this._
 
 ### Adblocker Detection
 
