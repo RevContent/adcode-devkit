@@ -22,6 +22,9 @@ Subids can be set inline by following the pattern shown below:
      data-sub-ids='{"key":"value"}'></div>
 ```
 
+_Note the use of single quotes for the subids data attribute. Single quotes allow for the use of valid JSON here. For more information on attribute syntax, [see here](https://html.spec.whatwg.org/#attributes-2)_
+
+
 Subids can also be set programmatically (recommended):
 
 ```javascript
