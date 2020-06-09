@@ -8,6 +8,7 @@ This guide aims to provide you with technical documentation on how to leverage o
 
 ### Contents
 * [Getting Started](#getting-started)
+* [Technical Considerations](technical-considerations.md)
 * [Manual Renders](manual-renders.md)
 * [Placing Multiple Widgets](multiple-widget-placements.md)
 * [Detecting Adblockers](detecting-adblockers.md)
