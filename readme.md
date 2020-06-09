@@ -13,6 +13,7 @@ This guide aims to provide you with technical documentation on how to leverage o
 * [Detecting Adblockers](detecting-adblockers.md)
 * [Using RevMore](using-revmore.md)
 * [Using AMP Widgets](using-amp-widgets.md)
+* [Using Subids](using-subids.md)
 
 ### Getting Started
 
