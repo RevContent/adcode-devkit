@@ -36,7 +36,7 @@ Aside from the base attributes, Revmore requires additional configuration data.
      data-rev-more
      data-rev-more-preview-height="400"
      data-rev-more-button-text="Read More"
-     data-rev-more-wrapper-id="content-wrapper"
+     data-rev-more-wrapper-id="rev-more-content"
      data-rev-more-devices="desktop,tablet,mobile"></div>
 
 <script src="https://assets.revcontent.com/master/delivery.js" defer></script>
@@ -51,7 +51,7 @@ if (el) {
   el.setAttribute('data-rev-more', '');
   el.setAttribute('data-rev-more-preview-height', '400');
   el.setAttribute('data-rev-more-button-text', 'Read More');
-  el.setAttribute('data-rev-more-wrapper-id', 'content-wrapper');
+  el.setAttribute('data-rev-more-wrapper-id', 'rev-more-content');
   el.setAttribute('data-rev-more-devices', 'desktop,tablet,mobile');
 }
 ```
