@@ -26,4 +26,4 @@ It's possible to have more than one widget on a page. If you require this behavi
 </html>
 ```
 
-Here we have a simple HTML page that has widget placements above and below the paragraph element. At the bottom of the body, we have a script tag that will defer execution until the DOM has finished rendering. If your widget widget attributes are configured correctly, you will see each widget rendered on your page.
+Here we have a simple HTML page that has widget placements above and below the paragraph element. At the bottom of the body, we have a script tag that will defer execution until the DOM has finished rendering. If your widget attributes are configured correctly, you will see each widget rendered on your page.
